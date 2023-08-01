@@ -6,7 +6,7 @@
 
 # Now build the image
    docker build -t welcome-to-docker .
-   --------------------------------------------------
+   ---------------------------------------------------
    The output will show like below
    docker build -t first-docker-image .
 [+] Building 87.4s (12/12) FINISHED
