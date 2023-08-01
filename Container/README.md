@@ -17,8 +17,11 @@ They are basically light in weight which will help building the applications in 
 
 # If you want to run the container with the image you have build, see the below command to run the container
     docker run -it -d -p 8089:3000 --name fc first-docker-image
+    
     docker run: Docker deamon will understand the input received from Docker client and tries to pull from the Docker Hub and run and execute the container
-    -it interactive terminal; -p port mapping host port to container port; --name you are naming the container else it will pickup automatically a random name if         you don't specify finally you need to provide the image name which will help us in building the container.
+    -it interactive terminal; 
+    -p port mapping host port to container port; 
+    --name you are naming the container else it will pickup automatically a random name if you don't specify finally you need to provide the image name which will       help us in building the container.
 
 # Else if you don't want to run command as specified above please follow the below doc given by docker commnuity
   https://docs.docker.com/get-started/run-your-own-container/
