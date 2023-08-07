@@ -1,3 +1,5 @@
+# Reference doc taken from official docker docs 
+doc: https://docs.docker.com/language/golang/run-containers/
 
 # Now let's try to run the container with the image we have build
 docker run <image name> 
