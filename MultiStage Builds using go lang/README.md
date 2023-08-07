@@ -3,7 +3,7 @@
 
 # Using mluti stage builds it helps to in two things
 It helps in reducing the image, where we use distroless concepts 
-It also helps in providing security when we are going to deploy the application in the container
+It also helps in providing security when we are going to deploy the application in the container.
 
 # To this as well followed Docker community docs
 Reference doc: < https://docs.docker.com/build/building/multi-stage/ >
