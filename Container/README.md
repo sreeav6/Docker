@@ -13,7 +13,7 @@ They are basically light in weight which will help building the applications in 
 # After exploring the Dockerfile. Now you need to build first image. To do this type the below command
     docker build -t welcome-to-docker .
 
-# Now you can able to view the images in the Docker Desktop simply by clicking the images option.
+#Now you can able to view the images in the Docker Desktop simply by clicking the images option.
 
 # If you want to run the container with the image you have build, see the below command to run the container
     docker run -it -d -p 8089:3000 --name fc first-docker-image
