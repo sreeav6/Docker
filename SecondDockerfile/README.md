@@ -1,10 +1,10 @@
-# This is basically building the Dockerfile using go lang as example
+#This is basically building the Dockerfile using go lang as example
 
-# Source is from Docker Community Docs
+#Source is from Docker Community Docs
 
 # Reference Doc from Docker docs< https://docs.docker.com/language/golang/build-images/ >
 
-# Where it has exaplained in details step by step
+#Where it has exaplained in details step by step
 
 1) As a summary we can know that Building Base image where we can get from the Hub in which this image contains libraries, modules, packages to compile
    and run the go application which is written in Dockerfile.
