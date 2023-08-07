@@ -12,7 +12,7 @@ Example: docker run -d -p 8080:8080 docker-gs-ping
 # Let's try to list the container which are in running/exited state
 docker ps < It will only show the containers which are in UP
 ![image](https://github.com/sreeav6/Docker/assets/139438620/c86b96ed-f54b-4cc7-94a8-bccb31fb3030)
-docker ps -al < It will show all Exited and Running containers >
+docker ps -a < It will show all Exited and Running containers >
 ![image](https://github.com/sreeav6/Docker/assets/139438620/60f9ee46-7e40-4b07-a645-3b2fb12dcb19)
 
 # Let's try to name the container 
